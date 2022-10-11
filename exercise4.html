@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    /*function fruits(){
+        if
+            (document.form.text1.value=="banana")
+                alert("HELLO BITCHES"); 
+        else
+            if(document.form.text1.value=="apple"){
+                alert("Welcome!");
+        }
+        else
+            {
+                alert("I dont like this fruits");
+            }
+    }*/
+   function sum(){
+
+        var sum=document.form.num1+document.form.num2
+        var result=(sum<100)?"true":"false";
+            document.write("your result is "+result);
+   }
+</script>
+<body>
+    <form name="form" action="#">
+        Please Enter first number <input type="text" name="num1" value="">
+        Please Enter second number <input type="text" name="num2" value="">
+            <input type="button" value="Confirm" onclick="sum()">
+    </form>
+        <!-- <form name="form" action="#">
+        Please Enter name of fruit <input type="text" name="text1" value="">
+        <input type="button" value="Confirm" onclick="fruits()"> */
+    </form> -->
+</body>
+</html>

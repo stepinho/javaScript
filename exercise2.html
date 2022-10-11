@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="logicalor"></p>
+    <script>
+        
+        /*   2) Create a variable called carName, assign the value BMW to it.
+
+        var carName="BMW";
+        document.write(carName); 
+        */
+
+        /* 3) Multiply 10 with 5, and alert the result:
+
+        alert(10*5) 
+        */
+
+        /* 4) Use the correct assignment operator that will result in x being 50 (same as x = x * y).
+
+        var x= 10, y=5;
+        document.write("50 ="+(x*=y)); 
+        
+
+        /*  5) 
+        var x=10, y=30, z=300;
+        function check_arithmetic_Expression(x, y, z) {
+        return x + y == z || x * y == z || x / y == z || x - y == z;} */
+
+        var x=10, y=30, z=300;
+
+        document.getElementById("logicalor").innerHTML=
+            (x + y == z || x * y == z || x / y == z || x - y == z);
+        
+    </script>
+</body>
+</html>
